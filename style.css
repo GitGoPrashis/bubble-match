@@ -1,0 +1,190 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    /* background: url(https://cdnb.artstation.com/p/assets/images/images/058/560/027/large/roysi-patramilo-sengul-background1.jpg?1674468578); */
+    /* max-width: (1200 100vw); */
+    background: url(https://cdn.vectorstock.com/i/500p/08/57/cartoon-underwater-landscape-sea-ocean-game-level-vector-47790857.jpg);
+    height: 100vh; 
+   
+    position: relative;
+     background-position: center center; 
+    background-repeat: no-repeat;
+     /* background-size: max(1200px, 100vw);  */
+    background-size: max(2087px, 100vw); 
+    
+
+
+}
+.big-container{
+    height: 700px;
+    width: 1310px;;
+    /* border: 1px solid white; */
+    margin: 5px 7px;
+    display: flex;
+}
+.conatiner-first{
+    width:300px ;
+    height: 150px;
+    /* border: 1px solid black; */
+    margin: 5px;
+}
+.conatiner-first img{
+   
+    width:300px ;
+}
+.dashboard{
+    margin-top: 70px;
+    position: relative;
+}
+.quote{
+    position: absolute;
+    margin: 30px 0 0 30px;
+}
+.conatiner-second{
+    width:950px ;
+    height: 500px;
+    /* border: 1px solid white; */
+   
+  
+}
+.bar{
+    width:950px ;
+    height: 100px;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-evenly;
+   
+    /* align-items: center; */
+}
+.hit{
+    width: 247px;
+    height: 86px;
+    /* border: 1px solid white; */
+    margin-top: 10px;
+    position: relative;
+}
+.hit img{
+    position: relative;
+}
+.count{
+    position: absolute;
+    top: 18px;
+    font-size: 25px;
+    color: white;
+    right: 94px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+   
+}
+.count> :nth-child(2){
+    background-color: #5a2020;
+    font-size: 30px;
+    margin-left: 5px;
+    padding: 7px 15px ;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.bubble-box{
+    width: 100%;
+    height: 100%;
+    background: #133858; 
+    /* background: url(https://cdn.vectorstock.com/i/500p/08/57/cartoon-underwater-landscape-sea-ocean-game-level-vector-47790857.jpg); */
+   
+    /* background-repeat: no-repeat; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 14px;
+    /* margin-right: 5px; */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  
+   
+   
+}
+.bubble {
+    
+    width: 50px;
+    height:50px;
+    background:transparent;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+   cursor: pointer;
+   font-weight: 600;
+   /* box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.9); */
+    animation: bounce 2s infinite alternate; 
+    box-shadow: inset 0 0 10px rgba(300, 300, 300, 0.9);
+   
+}
+.bubble:hover{
+    font-size: 30px;
+   
+}
+    
+ @keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-3px);
+    }
+} 
+.playAgain img{
+    height: 297px;
+    width: 479px;
+    margin: 36px 0 0 232px;
+    cursor: pointer;
+}
+.playButton img{
+    margin: 0 0 10px 30px;
+    width: 200px;
+    cursor: pointer;
+}
+.develper p{
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 5px 0 0 300px;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .body{
+    height: 97vh; 
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    opacity: 0.2;
+} */
+
+    /* width: 300px;
+    height: 100px ;
+    display: inline-block;
+    border: 1px solid black;
+}
+.navbar img{
+    object-fit: cover;
+    width: 131px;
+    margin-left: 22px;
+} */
